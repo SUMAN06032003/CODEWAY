@@ -1,0 +1,40 @@
+# Simple ATM Interface
+## Usage
+1. Clone the repository.
+2. Compile and run the `ATM.java` file.
+3. Follow the on-screen instructions to perform transactions.
+
+## Classes
+- `BankAccount`: Represents the user's bank account.
+- `ATM`: Represents the ATM machine.
+
+## Features
+- Withdrawal
+- Deposit
+- Check Balance
+- Input Validationatm-interface/
+│   README.md
+│
+└── src/
+    └── com/
+        └── yourusername/
+            └── atm/
+                │   ATM.java
+                │   BankAccount.java
+package com.yourusername.atm;
+
+public class BankAccount {
+    // ... (unchanged)
+}
+
+package com.yourusername.atm;
+
+import java.util.Scanner;
+
+public class ATM {
+    // ... (unchanged)
+    
+    public static void main(String[] args) {
+        // ... (unchanged)
+    }
+}
